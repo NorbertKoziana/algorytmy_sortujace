@@ -82,7 +82,7 @@ void merge_arrays(int* numbers, int p, int q, int k) {//p - beginning of array/f
 		}
 	}
 
-	//copy data from sorted to orignal array;
+	//copy data from sorted to orignal array
 	for (int i = p; i <= q; i++) {
 		numbers[i]= sorted[i];
 	}
